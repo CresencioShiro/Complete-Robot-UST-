@@ -1,4 +1,4 @@
-# Example robot URDFs
+# robot URDFs and Examples (complete mesh)
 
 [![pipeline status](https://gitlab.laas.fr/gepetto/example-robot-data/badges/master/pipeline.svg)](https://gitlab.laas.fr/gepetto/example-robot-data/-/commits/master)
 [![conde version](https://img.shields.io/conda/vn/conda-forge/example-robot-data.svg)](https://anaconda.org/conda-forge/example-robot-data)
@@ -25,7 +25,7 @@ tutorials or show-cases. These source files do not intend to substitute their or
    sudo apt update
    ```
 
-2. installation of example-robot-data and its python utils:
+2. installation of robot URDFs and its python utils:
    ```bash
    sudo apt install robotpkg-py3\*-example-robot-data
    ```
@@ -48,23 +48,7 @@ Clone it (with `--recursive`), create a `build` directory inside, and:
 cmake .. && make && make install
 ```
 
-## :robot: Show a robot with [gepetto-gui](https://github.com/gepetto/gepetto-viewer-corba)
+## :robot: Show a robot with [gepetto-gui](https://github.com/gepetto/gepetto-viewer-corba) Partnership
 
 `python -m example_robot_data -h` to list available robots.
 
-## :copyright: Credits
-
-### :writing_hand: Written by
-
-- [Carlos Mastalli](https://cmastalli.github.io/), Heriot-Watt University :uk:
-- [Guilhem Saurel](https://github.com/nim65s), LAAS-CNRS :fr:
-
-### :construction_worker: With contributions from
-
-- [Justin Carpentier](https://jcarpent.github.io/), INRIA :fr:
-- [Pierre Fernbach](https://pfernbach.github.io/), LAAS-CNRS :fr:
-- [Florent Lamiraux](https://gepettoweb.laas.fr/index.php/Members/FlorentLamiraux), LAAS-CNRS :fr:
-- [Wolfgang Merkt](http://www.wolfgangmerkt.com/research/), University of Oxford :uk:
-- [Josep Martí Saumell](https://www.iri.upc.edu/staff/jmarti), IRI: CSIC-UPC :es:
-- [Louis Montaut](https://lmontaut.github.io/), INRIA :fr:, CTU :czech_republic:
-- [Sergi Martinez](https://www.romilab.org/team/sergi-martinez), Heriot-Watt University :uk:
